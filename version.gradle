@@ -1,0 +1,15 @@
+ext{
+    buildConfiguration=[
+            buildToolsVersion:"28.0.3",
+            compileSdkVersion:28,
+            minSdkVersion:19,
+            targetSdkVersion:27,
+
+    ]
+    app=[
+          versionCode:1,
+          versionName:"1"
+    ]
+    //android支持（兼容）库版本
+    supportLibrary='27.1.1'
+}

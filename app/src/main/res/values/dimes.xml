@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        界面布局
+            所有可操作元素最小点击区域尺寸：48dp X 48dp。
+            栅格系统的最小单位是8dp，一切距离、尺寸都应该是8dp的整数倍。以下是一些常见的尺寸与距离：
+
+            顶部状态栏高度：24dp
+            Appbar最小高度：56dp
+            底部导航栏高度：48dp
+            悬浮按钮尺寸：56x56dp/40x40dp
+            用户头像尺寸：64x64dp/40x40dp
+            小图标点击区域：48x48dp
+            侧边抽屉到屏幕右边的距离：56dp
+            卡片间距：8dp
+            分隔线上下留白：8dp
+            大多元素的留白距离：16dp
+            屏幕左右对齐基线：16dp
+            文字左侧对齐基线：72dp
+            另外注意56dp这个数字，许多尺寸可变的控件，比如对话框、菜单等，宽度都可以按56的整数倍来设计
+     -->
+
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="dp_2">2dp</dimen>
+    <dimen name="dp_3">3dp</dimen>
+    <dimen name="dp_4">4dp</dimen>
+    <dimen name="dp_5">5dp</dimen>
+    <dimen name="dp_6">6dp</dimen>
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_12">12dp</dimen>
+    <dimen name="dp_13">13dp</dimen>
+    <dimen name="dp_14">14dp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+    <dimen name="dp_18">18dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_24">24dp</dimen>
+    <dimen name="dp_25">25dp</dimen>
+    <dimen name="dp_26">26dp</dimen>
+    <dimen name="dp_28">28dp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+    <dimen name="dp_35">35dp</dimen>
+    <dimen name="dp_32">32dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_46">46dp</dimen>
+    <dimen name="dp_48">48dp</dimen>
+    <dimen name="dp_49">49dp</dimen>
+    <dimen name="dp_50">50dp</dimen>
+    <dimen name="dp_51">51dp</dimen>
+    <dimen name="dp_52">52dp</dimen>
+    <dimen name="dp_56">56dp</dimen>
+    <dimen name="dp_59">59dp</dimen>
+    <dimen name="dp_66">66dp</dimen>
+    <dimen name="dp_69">69dp</dimen>
+    <dimen name="dp_70">70dp</dimen>
+    <dimen name="dp_72">72dp</dimen>
+    <dimen name="dp_76">76dp</dimen>
+    <dimen name="dp_80">80dp</dimen>
+    <dimen name="dp_86">86dp</dimen>
+    <dimen name="dp_87">87dp</dimen>
+    <dimen name="dp_88">88dp</dimen>
+    <dimen name="dp_90">90dp</dimen>
+    <dimen name="dp_96">96dp</dimen>
+    <dimen name="dp_100">100dp</dimen>
+    <dimen name="dp_114">114dp</dimen>
+    <dimen name="dp_180">180dp</dimen>
+    <dimen name="dp_150">150dp</dimen>
+    <dimen name="dp_120">120dp</dimen>
+    <dimen name="dp_125">125dp</dimen>
+    <dimen name="dp_130">130dp</dimen>
+    <dimen name="dp_140">140dp</dimen>
+    <dimen name="dp_200">200dp</dimen>
+    <dimen name="dp_210">210dp</dimen>
+    <dimen name="dp_250">250dp</dimen>
+    <dimen name="dp_346">346dp</dimen>
+
+    <dimen name="_9MeiImg_dp">120dp</dimen>
+    <dimen name="btnRadius_dp">2dp</dimen>
+    <dimen name="ReadRecommendPanelHeight">64dp</dimen>
+    <dimen name="ReadRecommendPanelBorderSize">0.5dp</dimen>
+    <dimen name="ReadSettingItemHeight">56dp</dimen>
+    <dimen name="ReadSettingBottomMenuPanelHeight">60dp</dimen>
+    <dimen name="UserFaceBigSize">64dp</dimen>
+    <dimen name="UserFaceNormalSize">40dp</dimen>
+    <dimen name="recommendImgSize">24dp</dimen>
+    <dimen name="bookGiftBarWidth">32dp</dimen>
+    <dimen name="bookGiftBarMaxHeight">60dp</dimen>
+    <dimen name="IconSize">48dp</dimen>
+    <dimen name="SpaceSize">8dp</dimen>
+    <dimen name="SpaceDoubleSize">16dp</dimen>
+    <dimen name="dividerHeight">@dimen/dp_1</dimen>
+    <dimen name="dividerHeightPx">1px</dimen>
+    <dimen name="rankListWebFaceW">64dp</dimen>
+    <dimen name="rankListWebFaceH">86dp</dimen>
+    <dimen name="default_book_face_width">90dp</dimen>
+    <dimen name="default_book_face_height">120dp</dimen>
+    <!-- 书架 -->
+    <dimen name="bookshelf_card_view_radius">3dp</dimen>
+    <dimen name="bookshelf_card_view_elevation">3dp</dimen>
+    <dimen name="bookshelf_card_view_margin">0dp</dimen>
+    <dimen name="bookshelf_face_width">90dp</dimen>
+    <dimen name="bookshelf_face_height">120dp</dimen>
+    <!-- 作者首页 -->
+    <dimen name="author_subject_card_view_radius">3dp</dimen>
+    <dimen name="author_subject_card_view_elevation">3dp</dimen>
+    <dimen name="author_subject_card_view_margin">0dp</dimen>
+    <dimen name="author_subject_face_width">90dp</dimen>
+    <dimen name="author_subject_face_height">120dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <!--通用字体大小-->
+    <dimen name="sp_10">10sp</dimen>
+    <dimen name="sp_14">14sp</dimen>
+    <dimen name="sp_16">16sp</dimen>
+    <dimen name="sp_18">18sp</dimen>
+    <dimen name="title_size">18sp</dimen>
+    <dimen name="title_size2">20sp</dimen>
+    <dimen name="sp_23">23sp</dimen>
+    <dimen name="label_size">25sp</dimen>
+    <dimen name="label_size2">29sp</dimen>
+    <dimen name="sp_30">30sp</dimen>
+
+</resources>

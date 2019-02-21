@@ -1,0 +1,137 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.kjs.trymvvm.ui.main.fragment.BookShelfFragment">
+
+        <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/commonToolbar"
+                layout="@layout/common_toolbar" />
+
+            <android.support.v4.widget.SwipeRefreshLayout
+                android:id="@+id/swl_Refresh"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <android.support.v4.widget.NestedScrollView
+                    android:id="@+id/bookshelf_nested_sl"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:descendantFocusability="blocksDescendants">
+
+                    <LinearLayout
+                        android:id="@+id/scrollView_ll"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_12"
+                        android:descendantFocusability="blocksDescendants"
+                        android:orientation="vertical">
+
+                        <include layout="@layout/view_book_shelf_sign" />
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/collection_book_list"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp_12"/>
+
+
+                    </LinearLayout>
+
+                </android.support.v4.widget.NestedScrollView>
+
+            </android.support.v4.widget.SwipeRefreshLayout>
+
+            <RelativeLayout
+                android:id="@+id/bottom_root_selected"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom"
+                android:background="@color/white"
+                android:visibility="gone">
+
+                <View style="@style/defaultDividerStyle" />
+
+                <TextView
+                    android:id="@+id/select_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:gravity="center"
+                    android:text="@string/book_all_selected"
+                    android:textColor="@color/common_secondary_font2"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:id="@+id/ll_delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="47dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:background="@drawable/ripple_setting_bg"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/dp_3"
+                    android:paddingRight="@dimen/dp_3">
+
+                    <TextView
+                        android:id="@+id/select_count_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/dp_5"
+                        android:background="@drawable/shape_number_bg"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/book_delete"
+                        android:textColor="@color/secondary_orange"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/select_cancel_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="47dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/dp_20"
+                    android:layout_toLeftOf="@+id/ll_delete"
+                    android:background="@drawable/ripple_setting_bg"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/dp_5"
+                    android:paddingRight="@dimen/dp_5"
+                    android:text="@string/book_all_selected_cancel"
+                    android:textColor="@color/common_secondary_font2"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+            <include
+                android:id="@+id/v_loading"
+                layout="@layout/view_loading"
+                android:visibility="gone" />
+
+        </LinearLayout>-->
+
+    </FrameLayout>
+</layout>

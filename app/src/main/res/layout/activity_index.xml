@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/view_Separator"
+                android:orientation="vertical">
+
+                <com.kjs.trymvvm.widget.ReaderViewPager
+                    android:id="@+id/vp_index"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@color/white"
+                    android:focusable="true"/>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view_Separator"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_above="@+id/abl_head"
+                android:background="@color/_cccccc"/>
+
+            <RelativeLayout
+                android:id="@+id/abl_head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/white">
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/tl_TabLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    app:tabIndicatorHeight="0dp"
+                    app:tabMode="fixed"
+                    app:tabPadding="0dp"
+                    app:tabSelectedTextColor="@color/_349fe3"
+                    app:tabTextColor="@color/_a2a2a2"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+</layout>

@@ -1,0 +1,911 @@
+<resources>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="app_name">九库阅读</string>
+    <string name="network_not_connected">网络连接失败，请检查网络设置</string>
+    <string name="xml_parser_failed">数据解析异常</string>
+    <string name="io_exception_error">文件流异常</string>
+    <string name="http_status_code_error">网络异常，错误码：%d</string>
+    <string name="http_exception_error">网络异常，请检查您的网络环境</string>
+    <string name="socket_exception_error">网络异常，读取数据超时</string>
+    <string name="app_run_code_error">应用程序运行时异常</string>
+    <string name="app_error">应用程序错误</string>
+    <string name="app_error_message">很抱歉，应用程序出现错误，即将退出。\n请提交错误报告，我们会尽快修复这个问题！</string>
+    <string name="submit_report">提交报告</string>
+    <string name="sure">确定</string>
+
+    <string name="downapp_02_str">无法下载安装文件，请检查SD卡是否挂载</string>
+    <string name="downapp_12_str">无法下载安装文件，请检查当前网络</string>
+    <string name="downapp_03_str">正在检测，请稍后&#8230;</string>
+    <string name="downapp_04_str">系统提示</string>
+    <string name="downapp_05_str">您当前已经是最新版本</string>
+    <string name="downapp_06_str">无法获取版本更新信息</string>
+    <string name="downapp_07_str">软件版本更新</string>
+    <string name="downapp_09_str">立即更新</string>
+    <string name="downapp_10_str">以后再说</string>
+    <string name="downapp_11_str">正在下载新版本</string>
+    <string name="error_07_str">检查失败,没有连接网络</string>
+    <string name="dialog_title">确定退出</string>
+    <string name="dialog_content">看累了，想休息一下？</string>
+    <string name="new_version_tip">有新版本哦，不更新一下看看？</string>
+    <string name="cancel">取消</string>
+    <string name="no_collection">暂无收藏记录</string>
+    <string name="collection_detail">查看详情</string>
+    <string name="author">作者：%1$s</string>
+    <string name="detail_unique_visitor">人气：%1$s</string>
+    <string name="introduce">简介：%1$s</string>
+    <string name="load_ing">加载中···</string>
+    <string name="load_full">已加载全部</string>
+    <string name="search_no_input">输入不能为空!</string>
+    <string name="backBookShelf">返回书架</string>
+    <string name="menuRefresh">刷新章节</string>
+    <string name="feedback">意见反馈</string>
+    <string name="book_chapter_sum1">已更新</string>
+    <string name="book_chapter_sum">0</string>
+    <string name="book_chapter_sum2">章</string>
+    <string name="menu_order_normal">正序</string>
+    <string name="menu_order_reverse">倒序</string>
+    <string name="user_FindPwd_Confirm">确认修改</string>
+    <string name="user_FindPwd_Title">找回密码</string>
+    <string name="user_FindPwd_Success">密码修改成功</string>
+    <string name="user_FindPwd_NewOldPwd_Same">新密码与原密码一样</string>
+    <string name="user_FindPwd_Fail">密码修改失败</string>
+    <string name="cout_login">登录</string>
+    <string name="login_failed">登录失败!</string>
+    <string name="login_success">登录成功!</string>
+    <string name="login_user_hint">请输入帐号或注册手机号</string>
+    <string name="login_password_hint">请输入密码</string>
+    <string name="register_username_error">*帐号长度限制2&#8211;16位，可以使用英文和数字</string>
+    <string name="start_register">确认注册</string>
+    <string name="register">注册</string>
+    <string name="vp_reigster">会员注册</string>
+    <string name="register_success">注册成功</string>
+    <string name="user_FindPwd">忘记密码?</string>
+    <string name="user_Pwd">密码</string>
+    <string name="social_login">社交帐号登录</string>
+    <string name="user_RegisterAccount">手机注册</string>
+    <string name="register_user_hint">请输入帐号，限定4&#8211;20个英文/数字</string>
+    <string name="register_password_hint">请输入密码，限定4&#8211;20个英文/数字</string>
+    <string name="register_new_password_hint">设置新密码</string>
+    <string name="affirm_password_hint">确认新密码</string>
+    <string name="register_new_password">设置密码</string>
+    <string name="affirm_password">确认密码</string>
+    <string name="no_same_password">两次输入密码不一致</string>
+    <string name="register_nick_hint">请输入昵称，限定4&#8211;20个字符</string>
+    <string name="search">搜索</string>
+    <string name="sign">签到</string>
+    <string name="more">展开更多</string>
+    <string name="notice">通知</string>
+    <string name="lou">[%1$d楼]</string>
+    <string name="error_BookInfo">获取图书信息错误</string>
+    <string name="error_Chapter">获取章节出现错误</string>
+    <string name="error_NetworkNotConnect">突然间找不到网络君!</string>
+    <string name="error_Back">返回首页</string>
+    <string name="error_Refresh">刷新</string>
+    <string name="error_Setting">设置网络</string>
+    <string name="intro_continue_read">继续阅读</string>
+    <string name="network_request_failed">网络请求失败</string>
+    <string name="parse_data_failed">解析数据失败</string>
+    <string name="openIdError">openId错误</string>
+    <string name="please_login">点击头像登录</string>
+    <string name="confirm">确定</string>
+    <string name="feedback_failed">反馈失败</string>
+    <string name="dialog_tips">对话框提示语</string>
+    <string name="version_update">版本更新</string>
+    <string name="book_collect">加入书架</string>
+    <string name="book_collected">已加书架</string>
+    <string name="book_read_setting_more">更多设置</string>
+    <string name="order_tip_no_money">您的帐号余额不足，请充值</string>
+    <string name="cancel_user">切换帐号</string>
+    <string name="please_login_first">请先登录</string>
+    <string name="order_activity_tipC">有点小问题，系统君正在努力修复，请稍后再试。</string>
+    <string name="user_recharge">用户充值</string>
+    <string name="deleting_collection">正在删除&#8230;</string>
+    <string name="image_des" />
+    <string name="download">下载</string>
+    <string name="tts">听书</string>
+    <string name="umengShareEmptyPlatforms">分享平台列表为空</string>
+    <string name="umengShareSuccess">%1$s分享成功啦</string>
+    <string name="umengShareError">%1$s分享失败啦%2$s</string>
+    <string name="umengShareCancel">%1$s分享取消了</string>
+    <string name="defaultAlertTitle">系统提示</string>
+    <string name="save">保存</string>
+    <string name="publish">发布</string>
+    <string name="modify">修改</string>
+    <string name="no_data">没有数据</string>
+    <string name="selectAll">全选</string>
+    <string name="cancelSelectAll">取消全选</string>
+    <string name="deleteFormat">删除（%1$s）</string>
+    <string name="save_success">保存成功</string>
+    <string name="submit_apply">提交申请</string>
+    <string name="confirm_submit">确认提交</string>
+    <string name="edit_info">修改信息</string>
+
+    <string name="reply_title">回复评论</string>
+    <string name="reply_publish">发表</string>
+    <string name="reply_publishing">正在发表&#8230;</string>
+    <string name="reply_failed">回复失败</string>
+    <string name="reply_success">回复成功</string>
+    <string name="comment_publish_fail">发表失败</string>
+    <string name="comment_publish_success">发表成功</string>
+    <string name="comment_publish_content_hint">随便说点什么吧</string>
+    <string name="menuCommentTitle">大家正在聊</string>
+    <string name="comment_detail">评论详情</string>
+    <string name="recommend_title">推荐票</string>
+    <string name="comment_detail_reply">回复</string>
+
+    <string name="reward_success">打赏成功</string>
+    <string name="reward_fail">打赏失败</string>
+    <string name="balance_number">%1$s金币</string>
+    <string name="submit">确认</string>
+    <string name="orderSubmit">确认订阅</string>
+
+    <string name="reward_before_login">请先登录再鼓励作者</string>
+    <string name="readVIP_before_login">请先登录再观看VIP章节</string>
+    <string name="book_collected_success">书籍收藏成功</string>
+    <string name="book_collected_fail">添加失败</string>
+    <string name="no_comment">评论为空</string>
+    <string name="consume_record">消费记录</string>
+    <string name="no_consume_record">暂无消费记录</string>
+    <string name="no_prop_record">暂无道具记录</string>
+    <string name="no_gold_record">暂无金币记录</string>
+    <string name="exit_tips_title">退出提示</string>
+    <string name="exit_tips">退出%1$s？</string>
+
+    <string name="book_order_detail">订阅确认</string>
+    <string name="order_account_balance">帐号余额：</string>
+    <string name="never_tip_order">不再提醒我，并自动订阅下一章</string>
+    <string name="never_tip2_order">您可以在应用设置里取消自动订阅</string>
+    <string name="order_menu_name1">章节名：</string>
+    <string name="order_book_name1">书名：</string>
+    <string name="order_menu_words">章节字数：</string>
+    <string name="order_book_words">全本字数：</string>
+    <string name="order_menu_name">%1$s字</string>
+    <string name="order_menu_need_gold1">章节价格：</string>
+    <string name="order_book_need_gold1">全本价格：</string>
+    <string name="order_menu_need_gold">%1$s库币（1元=100库币）</string>
+    <string name="order_book_need_gold">%1$s库币（原价%2$s库币）</string>
+    <string name="give_gold_coin">赠送金币</string>
+    <string name="gold_coin_description">金币说明</string>
+    <string name="prop_description">道具说明</string>
+    <string name="order_recharge">充值:</string>
+    <string name="order_donate">赠送:</string>
+    <string name="order_pay">实款:</string>
+    <string name="prompt">温馨提示</string>
+    <string name="recommend_success">推荐成功</string>
+    <string name="recommend_fail">推荐失败</string>
+    <string name="had_recommend_ticket">推荐票剩余：</string>
+    <string name="ticket_number">%1$s张</string>
+    <string name="SubmitTicket">确认投票</string>
+    <string name="SendTicketByCount">投递%1$s张推荐票！</string>
+    <string name="search_hint">书名/作者名/关键词</string>
+    <string name="recharge">快速充值</string>
+    <string name="recharge_record">充值记录</string>
+    <string name="no_recharge_record">暂无充值记录</string>
+    <string name="ku">库币</string>
+    <string name="gold">金币</string>
+    <string name="cool_coin">库币</string>
+    <string name="delete">删除</string>
+    <string name="order_account">余额不足</string>
+    <string name="about_me">关于九库</string>
+    <string name="menu_tip">目录</string>
+    <string name="guess">相似作品</string>
+    <string name="comment_content_tip">内容不能为空且不低于%d个字</string>
+    <string name="not_ticket">推荐票不足</string>
+    <string name="not_money">余额不足，前往充值</string>
+    <string name="use_egg_ticket">吐槽一下这部作品，需消耗1张鸡蛋票</string>
+    <string name="use_recommend_ticket">为你喜爱的作品打call,需要消耗1张推荐票</string>
+    <string name="no_recommend_ticket">推荐票不足，推荐失败</string>
+    <string name="reply_reply">回复%1$s:</string>
+    <string name="use_recommend">马上推荐</string>
+    <string name="use_egg">马上吐槽</string>
+    <string name="load_full_reply">已加载全部回复</string>
+    <string name="commentFromPC">来自电脑</string>
+    <string name="commentFromMobile">来自客户端</string>
+    <string name="commentFromWAP">来自手机站</string>
+    <string name="commentDownTooMany">被踩太多次，已经不能翻身了T_T</string>
+    <string name="commentRepeatUP">你已经赞过</string>
+    <string name="commentRepeatDown">你已经举报过</string>
+    <string name="user_setting">应用设置</string>
+    <string name="comment_time">两次评论间隔过短</string>
+    <string name="downloading">正在下载%1$s</string>
+    <string name="monthly_gold_not_enough_tip">余额不足，充值后再包月吧</string>
+    <string name="monthly_success_tip">包月订阅成功！</string>
+    <string name="monthly_fail_tip">包月订阅失败！</string>
+    <string name="delete_success">删除成功</string>
+    <string name="modification_fail">修改失败，请重试</string>
+    <string name="modification_success">修改成功</string>
+    <string name="modification_nickname_hint">昵称未修改，请输入新的昵称</string>
+    <string name="modification_mobile_hint">请输入手机号</string>
+    <string name="modification_mobile_added_hint">无需添加手机号</string>
+    <string name="camera">拍照</string>
+    <string name="photo">照片</string>
+    <string name="vip_Title">会员特权</string>
+    <string name="wx_NotWXAppInstalled">请安装微信后，再进行登陆操作</string>
+    <string name="wx_OpenLoginAuth">正在打开微信，请授权登陆</string>
+    <string name="wx_LoginResultEmpty">微信登陆异常，请稍后重试</string>
+    <string name="wx_LoginResultEx">微信登陆解析异常，请稍后重试</string>
+    <string name="wx_PaySupportedTip">未安装微信或微信版本太低，请检查后重新充值</string>
+    <string name="wx_PayOpen">正在打开微信支付</string>
+    <string name="wx_PayOrderJSONEmpty">微信订单异常，请稍后重试</string>
+    <string name="wx_PayOrderJSONParamsError">微信订单参数丢失，请稍后重试</string>
+    <string name="wx_PayOrderJSONEx">微信订单解析异常，请稍后重试</string>
+    <string name="wx_PaySuccess">微信支付成功</string>
+    <string name="wx_PayError">微信支付-1错误</string>
+    <string name="wx_PayCancel">取消微信支付</string>
+    <string name="hw_OpenHuaWei">正在登陆华为帐号</string>
+    <string name="hw_ConnectHuaWei">华为服务连接失败,请退出应用重试</string>
+    <string name="install_huaweiService">请先安装/更新华为服务</string>
+    <string name="qq_PaySupportedTip">未安装QQ或QQ版本太低，请检查后重新充值</string>
+    <string name="qq_PayOrderJSONEmpty">qq钱包订单异常，请稍后重试</string>
+    <string name="qq_PaySuccess">QQ支付成功</string>
+    <string name="qq_PayCancel">取消QQ支付</string>
+    <string name="addBookCollectTip">喜欢这本书？收藏到书架，更新有提示哦！</string>
+    <string name="balance">余额：</string>
+    <string name="bookReadLoading">努力加载中&#8230;</string>
+    <string name="waiting">请稍等&#8230;</string>
+    <string name="read_history_title">阅读历史</string>
+    <string name="no_read_history">没有阅读记录</string>
+    <string name="delete_all_history">删除全部阅读记录？</string>
+    <string name="delete_all_history_fail">删除失败，请重试</string>
+    <string name="my_message">我的消息</string>
+    <string name="no_message">暂无消息</string>
+    <string name="unknown_update">升级最新版本，享受更多功能</string>
+    <string name="chooser_Image_titile">选择图片</string>
+    <string name="u_PropStore">我的道具</string>
+    <string name="u_CurrentIntegral">当前积分：%1$s</string>
+    <string name="Integral">%1$s积分</string>
+    <string name="exchange">兑换</string>
+    <string name="my_prop">我的道具</string>
+    <string name="exchange_prop">兑换道具</string>
+    <string name="no_prop">暂无道具</string>
+    <string name="use">使用</string>
+    <string name="expire">有效期至%1$s</string>
+    <string name="prop_shovel_use_tips">在末页使用</string>
+    <string name="prop_whip_use_tips">在目录使用</string>
+    <string name="prop_discount_use_tips">充值时使用</string>
+    <string name="integral">积分</string>
+    <string name="levelFormat">LV%1$d</string>
+    <string name="click_refresh">点击刷新</string>
+    <string name="current_Level_tip">当前等级</string>
+    <string name="current_Level">VIP%1$s</string>
+    <string name="vip_recharge">充值</string>
+    <string name="collection_egg_tips">拉一下书架，书荒不用怕</string>
+    <string name="collection_book_tips">长按封面可操\n作书架</string>
+    <string name="ollection_history_tips">阅读记录在这里哦！</string>
+    <string name="download_mission_downloaded">领取金币</string>
+    <string name="download_mission_downloadable">下载</string>
+    <string name="download_mission_wait_download">等待下载</string>
+    <string name="download_mission_wait_restart_download">重新下载</string>
+    <string name="download_mission_downloading">下载中</string>
+    <string name="download_mission_install">安装</string>
+    <string name="download_mission_downloaded_got">已领取</string>
+    <string name="feedback_edit_hint">想对我说什么？</string>
+    <string name="feedback_send">发送</string>
+    <string name="myAccount_EditSex">修改性别</string>
+    <string name="myAccount_EditBirthday">修改生日</string>
+    <string name="aliPayOpen">正在打开支付宝</string>
+    <string name="aliPaySuccess">支付成功</string>
+    <string name="aliPayWait">支付结果确认中</string>
+    <string name="aliPayFail">支付失败</string>
+    <string name="batchOrder_Tips">批量购买更优惠</string>
+    <string name="batchOrder_PayTitle">选择章节</string>
+    <string name="batchOrder_PayTips">您可以选择以下章节进行购买，已购章节不会重复购买</string>
+    <string name="batchOrder_DownTitle">选择缓存的章节数量</string>
+    <string name="batchOrder_DownTips">离线缓存需要消耗流量，建议在WiFi环境下进行</string>
+    <string name="batchOrder_CannotDown">当前作品无法离线缓存</string>
+    <string name="Long_comment">长评</string>
+    <string name="Short_comment">短评</string>
+    <string name="Short_comment_hint">请输入评论内容</string>
+    <string name="Long_comment_hint">高质量的评论，可以为你获得额外的积分。\n优质的评论还有机会获得一定的金币。\n长评字数不得少于100个字</string>
+    <string name="add_comment_start">轻触添加评分</string>
+    <string name="least_star">评分不能低于1分</string>
+    <string name="reply_hint">回复楼主</string>
+    <string name="blueThemeName">blue</string>
+    <string name="blueStatusBarThemeName">blueStatusBar</string>
+    <string name="blueNoActionBarThemeName">blueNoActionBar</string>
+    <string name="blueStartAppThemeName">blueStartApp</string>
+    <string name="blueReadAppThemeName">blueReadApp</string>
+    <string name="blueActivityDialogThemeName">blueActivityDialog</string>
+    <!-- 应用设置 -->
+    <string name="app_Setting_Loading_Five">预读5章</string>
+    <string name="app_Setting_Notification_BookCollectUpdate">更新提醒</string>
+    <string name="app_Setting_Notification_BookCollectUpdate_Message">收藏书架中有%1$d本书更新了~</string>
+    <string name="app_Setting_Notification_Comment_Single_Message">%1$s刚刚评论了你的%2$s作品~</string>
+    <string name="app_Setting_Notification_Comment_More_Message">有%1$s人评论了你的%2$s作品~</string>
+    <string name="app_Setting_Notification_Reward_Single_Message">%1$s刚刚打赏了%2$s%3$s金币~</string>
+    <string name="app_Setting_Notification_Reward_More_Message">有%1$s人打赏了%2$s%3$s金币~</string>
+    <string name="app_Setting_QuickOrder">取消快速订阅</string>
+    <string name="app_Setting_QuickOrderTip">取消之后，VIP章节会提醒</string>
+    <string name="app_Clear_All_Cache">清除缓存</string>
+    <string name="app_Clear_All_Cache_Success">已清除缓存</string>
+    <string name="app_Clear_All_Cache_fail">清除失败，请重试</string>
+    <string name="appSetting_ReadFont">阅读字体</string>
+    <string name="appSetting_ReadFontDefault">默认字体</string>
+    <string name="appSetting_ReadFontGold">%1$d金币</string>
+    <string name="appSetting_FontStatusNotBuy">购买</string>
+    <string name="appSetting_FontStatusInstalledNotUse">使用</string>
+    <string name="appSetting_FontStatusInstalledUse">已使用</string>
+    <string name="appSettingCategory_Read">阅读喜好</string>
+    <string name="appSettingCategory_PageEffect">翻页习惯</string>
+    <string name="appSettingCategory_Other">其他</string>
+    <string name="appSettingItem_Font">字体设置</string>
+    <string name="appSettingItem_CommunityNotification">回复提醒</string>
+
+    <!-- 注册模块 -->
+    <string name="reg_use_account_reg">收不到验证码？使用帐户注册</string>
+    <string name="reg_mobile_hint">请输入正确的手机号，长度限定为11位</string>
+    <string name="reg_auth_code_hint">请输入验证码</string>
+    <string name="reg_auth_code_1More_hint">60秒内只能获取一次验证码</string>
+    <string name="reg_auth_code_10More_hint">10分钟内请求过多，请稍后重试</string>
+    <string name="reg_auth_code_add_error_hint">验证码入库失败</string>
+    <string name="reg_auth_code_mobile_null_hint">该手机号不存在</string>
+    <string name="reg_Get_AuthCode">获取验证码</string>
+    <string name="AuthCode">验证码</string>
+    <string name="reg_ReGet_AuthCode">%1$ds后再次获取</string>
+    <string name="reg_Mobile_Exists_hint">手机号码已存在</string>
+    <string name="user_name">用户名</string>
+
+    <!-- 手机绑定 -->
+    <string name="bindMobile_Tip">绑定手机号，您可以\n1.使用手机号登录\n2.使用手机号找回密码\n3.即获100用户积分！</string>
+    <string name="bindMobile_Title">绑定手机号</string>
+    <string name="bindMobile_ConfirmBind">确认绑定</string>
+    <string name="bindMobile_bind_is_ok">绑定成功</string>
+    <string name="bindMobile_bind_is_error">绑定失败</string>
+    <string name="bindMobile_user_is_not_in">用户不存在</string>
+    <string name="bindMobile_mobile_is_has">该手机已绑定</string>
+
+    <!-- dialog -->
+    <string name="dialog_Title_Monthly">包月看书</string>
+    <string name="dialog_Title_MonthlyAdd">包月续费</string>
+    <string name="dialog_Title_EditMobile">修改手机号</string>
+    <string name="dialog_Title_EditNickName">修改昵称</string>
+    <string name="dialog_Title_EditAvatar">修改头像</string>
+    <string name="dialogTitle_ShareGift">分享这本书给您的微信好友，我们将为您送出一份道具大礼包！</string>
+    <string name="dialogContent_ShareGiftSubmit">点我立即分享</string>
+    <string name="dialogContent_ShareGiftTips">该奖励每周仅能获取一次，重复分享无效</string>
+    <string name="dialogContent_ShareGiftCard">积分100</string>
+    <string name="dialogContent_ShareGiftCase">藏宝箱X1</string>
+    <string name="dialogContent_ShareGiftShovel">洛阳铲X5</string>
+    <string name="prop_unit">分</string>
+    <string name="dialogContent_ShareGiftCardInfo">在积分商城可以兑换各种道具</string>
+    <string name="dialogContent_ShareGiftCaseInfo">在积分商城-我的道具中使用获得金币</string>
+    <string name="dialogContent_ShareGiftShovelInfo">在目录页长按可以挖开VIP章节</string>
+    <string name="dialog_Monthly_Content">每天仅需6毛钱，开启包月全站万本图书任意看！</string>
+    <string name="dialog_MonthlyAdd_Content">确认续存包月天数，30天全站任看？</string>
+    <string name="dialog_NotPrompt">不再提示</string>
+    <string name="dialog_Title_Delete">删除确认</string>
+    <string name="dialog_DeleteBook">确定删除该作品</string>
+    <string name="dialog_Permission_Tips">提示</string>
+    <string name="dialog_Permission_Message">请到系统设置中开启权限</string>
+    <string name="dialog_Permission_GoSetting">去手动授权</string>
+    <string name="dialog_Permission_ExitApp">退出应用</string>
+    <string name="dialog_Permission_Cancel">不了,谢谢</string>
+
+    <!-- Notification -->
+    <string name="notification_ChapterDown_CurrentDownInfo">正在下载%1$s</string>
+    <string name="notification_ChapterDown_SuccessDown">成功下载%1$s</string>
+    <!-- 首页模块 -->
+    <string name="index_bottom_tab_book_city">精选</string>
+    <string name="index_bottom_tab_book_shelf">书架</string>
+    <string name="index_bottom_tab_user">我</string>
+    <string name="index_bottom_tab_discover">发现</string>
+    <string name="community_topic">热门讨论</string>
+    <string name="read_history">阅读进度：第%1$s章</string>
+
+    <!-- 用户中心 -->
+    <string name="u_SignIn">签到</string>
+    <string name="u_UserGuide">有事找九妹</string>
+    <string name="u_MyAccount">我的帐户</string>
+    <string name="u_MyAccount2">%1$d库币 %2$d金币</string>
+    <string name="u_Level">LV%1$d</string>
+    <string name="u_AccountDetail">帐户详情</string>
+    <string name="u_UserDataLoadTip">用户数据未完全加载，无法显示我的帐户</string>
+    <string name="u_Mobile">手机号</string>
+    <string name="u_RegisterType">第三方登录来源</string>
+    <string name="u_DownloadMission">免费拿金币</string>
+    <string name="u_Writing">投稿创作</string>
+
+    <!-- 签到模块 -->
+    <string name="face_finish">完成任务后奖励5个金币。</string>
+    <string name="luoyang_shovel">完成任务后奖励10个金币。</string>
+    <string name="buy_combination">完成任务后奖励20个金币。</string>
+    <string name="be_member">完成任务后奖励500个金币。</string>
+
+    <string name="mission_title_1">改头换面</string>
+    <string name="mission_title_2">名扬四海</string>
+    <string name="mission_title_3">书不释手</string>
+    <string name="mission_title_4">言之有理</string>
+    <string name="mission_title_5">一字千金</string>
+    <string name="mission_title_6">百读不厌</string>
+    <string name="mission_title_7">至尊至贵</string>
+
+    <string name="mission_explanation_1">更新头像，做一个有脸面的新人。</string>
+    <string name="mission_explanation_2">修改昵称，给自己一个响亮的名号。</string>
+    <string name="mission_explanation_3">收藏任意一部作品。</string>
+    <string name="mission_explanation_4">前往作品详情页或者社区发表一条评论。</string>
+    <string name="mission_explanation_5">订阅一章付费章节。</string>
+    <string name="mission_explanation_6">阅读时长超过10分钟。</string>
+    <string name="mission_explanation_7">充值成为尊贵的会员。</string>
+
+
+    <string name="do_mission">去做任务</string>
+    <string name="mission_award">领取奖励</string>
+    <string name="mission_award_got">已领取奖励</string>
+
+    <string name="sign_get">获得</string>
+    <string name="sign_IntegralNum">个积分</string>
+    <string name="sign_one">一个</string>
+    <string name="sign_integral_record">签到记录</string>
+    <string name="sign_remind">任务提醒</string>
+    <string name="sign_integral_use">使用积分</string>
+    <string name="sign_tool_use">使用道具</string>
+    <string name="sign_continue">已累计签到%1$d天</string>
+    <!--去掉文字：\n3、累计签到15天更有惊喜。-->
+    <string name="sign_help">签到功能说明：\n1.每日来到九库文学签到即可领取奖励，签到满对应天数即可领取对应礼包，七天连续不中断，连续签到满七天可参与抽奖，奖品包括iPhoneX、华为P20手机等。若中途某一天没有签到，必须从第一天重新开始签到。\n\n
+		2.签到满七天后，可继续从第一天重新开始签到领取奖励（每签到满七天可循环到下一个周期重新开始）。\n\n
+		3.每个账号每天可签到并领取奖励一次。</string>
+    <string name="sign_rule_3">随机获取5~20之间的赠送金币</string>
+    <string name="sign_rule_6">随机获取10~30之间的赠送金币</string>
+    <string name="sign_award">已签到%1$d天，获得%2$s</string>
+    <string name="sign_state">签到成功</string>
+
+    <!-- 热门排行 -->
+    <string name="male_rank">男生</string>
+    <string name="female_rank">女生</string>
+
+    <!-- 发现精彩 -->
+    <string name="discoverTab2">分类书库</string>
+    <string name="s_LabelList">热门搜索</string>
+    <string name="s_BookWashTips">戳这里！开启新世界大门</string>
+
+    <!-- 包月会员 -->
+    <string name="mon_Guide">开通包月会员，可以享受30天的全站任看特权。\n猛戳分享按钮，分享邀请码给你的小伙伴。\n每多一位使用邀请码的小伙伴，都可以为自己续存6天的包月时长哦！</string>
+    <string name="mon_ShareUrl">http://a.app.qq.com/o/simple.jsp?pkgname=com.mengmengda.reader</string>
+    <string name="mon_9kusUrl">http://img.9kus.com/Images/05/58b7bfd5826b8.png</string>
+    <string name="mon_Community_title">来自%1s的精彩评论</string>
+
+    <!-- 书籍详情BookDetail -->
+    <string name="bookD_FreeRead">立即阅读</string>
+    <string name="bookD_MoreDetail">展开简介</string>
+    <string name="bookD_LessDetail">收起简介</string>
+    <string name="bookD_OtherInfo">版权信息</string>
+    <string name="bookD_PublishName">版权：%1$s</string>
+    <string name="bookD_Guess">看过这本书的%1$d%%读者也在看</string>
+    <string name="bookD_ShareTitle">#书荒看这里#</string>
+    <string name="bookD_ShareText">我在九库文学看到一本超赞的小说《%1$s》。故事精彩爽点十足，一口气看了两天两夜都欲罢不能。不敢独享，强烈推荐！</string>
+    <string name="bookD_ShareUrl">http://m.9kus.com/Book/detail/book_id/%1$s/fr/%2$s</string>
+
+    <string name="bookD_About">捧场</string>
+    <string name="bookD_Share">分享</string>
+    <string name="bookD_MenuCount">已更新%1$s章</string>
+    <string name="bookD_NoComment">还没有人写评论\n快来抢沙发吧！</string>
+    <string name="bookD_supportAuthor">支持作者</string>
+    <string name="bookD_recommendTip1">已收获</string>
+    <string name="bookD_recommendTip2">个赞</string>
+    <string name="bookD_rewardBtn">赠送作者</string>
+    <string name="bookD_rewardGiftTitle">赠送礼物</string>
+    <string name="bookD_reward_info">赠送作者%1$s个%2$s，需消耗%3$s个金币</string>
+    <string name="bookD_reward_submit">壕赠好礼</string>
+    <string name="bookD_reward_cancle">考虑一下</string>
+
+    <!--赠送金币tab-->
+
+    <string name="tab_goldCoin_usable">可使用</string>
+    <string name="tab_goldCoin_consumed">已用完</string>
+    <string name="tab_goldCoin_expired">已过期</string>
+
+    <!--消费记录tab-->
+    <string name="tab_coolCoin">库币</string>
+    <string name="tab_goldCoin">金币</string>
+
+    <!--我的道具-->
+    <string name="tab_viable_prop">可使用</string>
+    <string name="tab_finish_prop">已用完</string>
+    <string name="tab_expire_prop">已过期</string>
+
+    <!--催更-->
+    <string name="urge_update_immediately">暴力催更</string>
+    <string name="urge_confirm">催更</string>
+    <string name="urge_consume_cool">消耗库币：</string>
+    <string name="urge_ticket">%1$d催更票</string>
+    <string name="urge_ticket_no_num">催更票</string>
+    <string name="urge_ticket_num">+%1$d</string>
+    <string name="urge_ticket_tips">请至少选择一张票</string>
+    <string name="urge_ensure">确认催更？</string>
+
+    <!--欢迎页面-->
+    <string name="welcome_advertising">跳过广告</string>
+
+    <!-- 首次进入引导 -->
+    <string name="guide_choose">选择你喜欢的图书类别</string>
+    <string name="guide_choose_state">我们为您定制推荐图书</string>
+    <string name="guide_login">已有帐号，直接登录</string>
+
+    <!-- 阅读页 -->
+    <string name="reading_first">已经是第一章第一页啦!</string>
+    <string name="read_more">更多</string>
+    <string name="start_read_tts">开始语音朗读</string>
+    <string name="select_read_mode">请选择阅读模式</string>
+
+    <string name="read_BookInfoAuthorF">%1$s著</string>
+    <string name="read_BookInfoWordCountF">%1$s字</string>
+    <string name="read_BookInfoCopyright1">本书由九库阅读进行电子版制作与发行</string>
+    <string name="read_BookInfoCopyright2">版权所有，侵权必究</string>
+    <string name="finish_reading_tip">已经看到最后一页了哦！\n给作者一些鼓励，让作者快速更新吧！</string>
+    <string name="finish_reading_recommend">赞美作者</string>
+    <string name="finish_reading_reward">送朵小花</string>
+    <string name="finish_reading_whip">鞭策作者</string>
+    <string name="finish_reading_guess">意犹未尽？我们为您精选了下面作品</string>
+    <string name="LoginRepeatTitle">被迫下线提醒</string>
+    <string name="LoginRepeatText">您的帐号在多处登录，请在%1$ds后重新登录</string>
+    <string name="ttsExit">已退出语音朗读</string>
+    <string name="ttsDefaultVoiceName">1</string>
+
+    <!-- 阅读设置 -->
+    <string name="book_setting_chapter">目录</string>
+    <string name="book_setting_config">设置</string>
+    <string name="readSettingTab_MenuComment">评论</string>
+    <string name="readSetting_FontSizeFormat">%1$d号</string>
+    <string name="readSetting_FontSizeMinus">A-</string>
+    <string name="readSetting_FontSizeAdd">A+</string>
+    <string name="readSetting_PageEffectNormal">左右翻页</string>
+    <string name="readSetting_PageEffect3D">仿真翻页</string>
+    <string name="readSetting_PageEffectScroll">上下翻页</string>
+    <string name="book_setting_system">系统</string>
+    <string name="readSetting_TTSFast">快</string>
+    <string name="readSetting_TTSSlow">慢</string>
+    <string name="readSetting_TTSExit">退出语音朗读</string>
+    <string name="read_recommend">末页推荐</string>
+    <string name="finish_recommend_tv">下列作品跟《%1$s》一样精彩</string>
+    <string name="long_comment_hint2">你已经看到最新更新的章节啦！等待更新的过程中，给作者写点激励的话吧！</string>
+    <string name="refresh_recommend_tv">不感兴趣换一批</string>
+
+    <!-- 首页书城 男女生精选 -->
+    <string name="index_choicenness_male">男生</string>
+    <string name="index_choicenness_female">女生</string>
+    <string name="index_choiceness_free">免费</string>
+    <string name="index_choiceness_short">短篇</string>
+
+    <string name="book_discount_titiel">限免专区</string>
+    <string name="start">开始</string>
+    <string name="end">结束</string>
+    <string name="complete">已结束</string>
+
+    <!--阅读内容反馈模块-->
+    <string name="unable_get_content">无法获取章节内容</string>
+    <string name="repetition_content">章节内容重复</string>
+    <string name="work_plagiarism">作品抄袭</string>
+    <string name="feedback_sumbit">提交反馈</string>
+    <string name="feedback_title">章节报错</string>
+    <string name="commit">提交</string>
+
+
+    <!--Ta的详情页面-->
+    <string name="ta_shelf">TA看过的书</string>
+    <string name="ta_comment">TA的评论</string>
+    <!--社区热门话题-->
+    <string name="community_square">社区广场</string>
+    <string name="no_topic">暂时没有热门话题</string>
+    <string name="default_Face">默认表情</string>
+    <string name="YoMonkey_Face">悠嘻猴</string>
+    <string name="TuZki_Face">兔斯基</string>
+    <string name="RunAway_Face">暴走表情</string>
+    <string name="publish_topic">发表主题</string>
+    <string name="topic_name">#%1s#</string>
+    <!--书架-->
+    <string name="replace_book">换一批</string>
+    <string name="book_all_selected">全选</string>
+    <string name="book_all_selected_cancel">取消</string>
+    <string name="book_delete">删除</string>
+    <string name="no_select_book">请选择书籍</string>
+
+    <!--会员特权-->
+    <string name="member_zone">会员特权</string>
+    <string name="member_face">特权头像框</string>
+    <string name="member_recharge_gift">充值有返赠</string>
+    <string name="member_month_day">每月会员日</string>
+    <string name="member_discount">订阅享折扣</string>
+    <string name="member_free">免费专场</string>
+    <string name="open_member_zone">开启会员特权</string>
+    <string name="open_monthly_member">包月套餐</string>
+
+    <!--书籍订购记录-->
+    <string name="book_order_record">订购记录</string>
+    <string name="no_book_order_record">暂无订购记录</string>
+    <string name="update_vip">已更新%1$d个vip章节</string>
+    <string name="buy_vip">已购买%1$d个vip章节</string>
+    <string name="book_end">已完结</string>
+    <string name="book_no_update">未更新</string>
+    <string name="book_update">有更新</string>
+    <string name="goldCoin_code_tip">请输入金币兑换码</string>
+    <string name="goldCoin_code_toast">请输入12位的金币兑换码</string>
+
+    <!--游客帐号提示框-->
+    <string name="jump_tip">跳过</string>
+    <string name="title_tip">提示</string>
+    <string name="setting_account">去设置</string>
+    <string name="cancel_continue">仍然切换</string>
+    <string name="visitor_recharge_tip">您当前为游客帐号，为确保您的帐户安全，请您绑定手机号或者使用正式帐号进行充值</string>
+    <string name="visitor_information_tip">您当前为游客帐号，升级为正式帐号后方可更改信息。\n请您设置登陆手机号和密码升级为正式帐号。</string>
+    <string name="cancel_visitor_tip">您当前为游客帐号，切换帐号后将丢失书架记录、消费记录以及充值的金币。\n请您设置登陆手机号和密码升级为正式帐号。</string>
+    <string name="bind_account">设置登录帐号</string>
+    <string name="account_tip">帐号</string>
+
+    <!--帐户详情-->
+    <string name="user_id">九库ID</string>
+    <string name="user_id_tips">请牢记此ID，作为帐号找回依据</string>
+    <!--签到详情-->
+    <string name="addSign">补</string>
+    <string name="no_money">补签需要消耗50金币，您的帐户余额为%1$s，是否前往充值?</string>
+    <string name="go_recharge">前往充值</string>
+    <string name="add_sign_tip">补签需要消耗50金币，确认补签吗？\n补签不会获得日常签到的奖励。</string>
+
+    <string name="convert_goldCoin">兑换金币</string>
+    <string name="allCommentCount">查看所有评论（%1$d）</string>
+    <string name="bookName">——%1$s</string>
+    <string name="signRank">VOL.%1$d</string>
+    <string name="item_good">只看精华</string>
+    <string name="item_all">全部评论</string>
+    <string name="notice_tip">公告</string>
+    <string name="setTop_tip">置顶</string>
+    <string name="s_publishTime">按发表时间排序</string>
+    <string name="s_ReplyTime">按回复时间排序</string>
+    <string name="selectTip">请选择</string>
+
+    <!-- 写作模块 -->
+    <string name="write_AgreedToAgreement">我已同意该协议</string>
+    <string name="write_ApplyForAuthor">申请成为作者</string>
+    <string name="write_AuthorAgreementTitle">作者服务协议</string>
+    <string name="write_AuthorAgreementContent">
+欢迎使用九库文学网，请您仔细阅读以下全部内容，如您不同意《九库文学网作者注册协议》（以下简称“本协议”）任意内容的，请不要使用本服务。 如您（未成年人应在监护人陪同下）选择使用并点击“同意”的，即表示已经与九库文学网达成协议，自愿接受本协议的所有内容。此后，您不得以未阅读本协议内容作任何形式的抗辩。 如果您选择接受本条款并注册成为九库文学网会员，即表示您同意接受协议各项条件的约束。如果您不同意本服务条款，则不能获得使用本服务的权利。您若有违反本条款规定，九库文学网有权随时中止或终止您的九库文学网会员资格并保留追究相关法律责任的权利。 九库文学网的所有权、经营管理权归广州萌萌达网络科技有限公司所有。广州萌萌达网络科技有限公司有权根据法律规范及运营的合理需要，不断修改和完善本协议。如您继续使用本服务，即意味着同意并自愿遵守修改后的服务协议。\n
+一、释义\n
+\n
+1.“本网站”指广州萌萌达网络科技有限公司（简称“本公司”）运营的九库文学网，网址为www.9kus.com \n
+2.“用户”，指与本网站签订（通过在网上点击同意的方式）用户服务协议而接受本网站所提供服务的注册用户； \n
+3.“注册作者”，指接受和同意本作者注册协议的用户； \n
+4.“作品”，指注册作者本人上传、发布或发表在本网站上的以文字、图片等形式创作的文学艺术作品（或其任何章节、片段等），且注册作者对该作品依据《中华人民共和国著作权法》享有著作权（注册作者与本网站另有协议约定权利的除外）；\n
+二、注册\n
+\n
+1.请您严格按照本网站公布和提示的规则、流程进行作者注册操作。注册成为本网站的注册作者后，您有义务妥善保存您的作者帐号和密码，并对您的帐号进行的所有活动和行为负法律责任。您完全理解并同意，任何因您自身过错（包括但不限于转让帐号、与他人共用、自己泄露等）或您所用计算机感染病毒或木马，导致帐号密码泄漏、遗失或其他损失后果均由您自行承担，本公司和本网站不承担任何法律责任。 \n
+2.您所使用的笔名以及提供的个人介绍等作者信息，不得含有违反国家法律、社会公德及本网站规定的文字，否则本网站有权不经另行通知随时无条件删除该注册作者帐号及其帐号下发表的任何内容。 \n
+3.您完全理解并同意，为有效利用网站资源，如您在注册后30天内未上传、发表任何作品文字，或清空、锁定所有作品章节达7天，或声明离开本网站的，本网站有权不经另行通知无条件删除您在本网站的注册作者帐号及该帐号下发表的任何内容。（根据需要决定是否）\n
+三、作者投稿\n
+\n
+1.您应当严格按照本网站公布和提示的规则、说明、流程等进行作品投稿、上传或发布，并愿受其约束。 \n
+2.在任何时候，上传、发布或发表的作品不得含有下列内容： \n
+1）反对宪法确定的基本原则； \n
+2）危害国家统一、主权和领土完整； \n
+3）危害国家安全、荣誉和利益； \n
+4）煽动民族分裂、侵害少数民族风俗习惯，破坏民族团结； \n
+5）泄露国家机密； \n
+6）宣扬淫秽、迷信或者渲染暴力，危害社会公德和民族优秀文化传统； \n
+7）侮辱或者诽谤他人； \n
+8）侵犯或可能侵犯任何第三人的合法权利； \n
+9）法律、法规规定禁止的其他内容。 \n
+本网站有权对含有或涉嫌含有上述违法内容的作品或有悖社会道德伦理、政治色彩强烈的作品不予发布，或不经另行通知从网站上将该等作品予以删除，且有权立即无条件删除注册作者帐号及该帐号下发表或上传的任何其他内容。 \n
+3.注册作者应当保证在本网站上传、发表的作品系其本人所创作，内容健康，注重文学品味，并符合本网站关于原创文学网站发展的方向和定位。 \n
+4.本网站一经核实作品属于非原创作品或任何可能涉嫌侵犯他人知识产权的作品，将根据本网站的相关规定进行处理。此类作品所产生的一切后果责任由注册作者自行承担。 \n
+5.本网站谢绝任何形式的转载，严禁剽窃、抄袭，否则责任自负。 \n
+6.除非您与本网站另行签订协议成为本网站的签约作者，您完全理解并同意，本公司和本网站无须就您在本网站上传、发布或发表的任何作品支付稿酬或任何其他费用。\n
+四、作品授权\n
+\n
+1．凡在本网站上传、发布或发表的作品，其名称原则上不得变更。本公司和本网站对您已经发表在本网站的作品拥有授权传播和作品转载等的版权权利，请您在选择时仔细阅读并遵守相关规则、说明。 \n
+2．尽管有上述规定，接受本作者注册协议，即表示您同意授权本公司的发布、发表、上传、下载、复制、排版、汇编和宣传您的作品，本公司有权授权合作机构在本公司和本网站所获授权范围内使用您的作品而无需事先通知您。 \n
+3.为了复制、出版、发行、翻译或汇编和编纂您作品的需要，本网站有权将您对本公司的授权转授权至本公司的关联公司而无需事先通知您。 \n
+4.本公司或本网站的工作人员，有权审阅您的作品并有权对不符合法律法规、本网站的管理规定的作品涉及的字、词或其他文字；图片、声音和影像进行处理，本公司和本网络尽力保证作品的原意，您理解并同意，本公司或本网站无需事先通知您并对此承担任何法律责任。\n
+五、免责声明\n
+\n
+1．凡有本网站用户未经您的许可，在本网站社区论坛内转载您作品的，本网站对该用户转载行为不负任何责任，但本网站受理并尽快处理您为此提出的投诉。 \n
+2．属于资料和学习性质的版面内容，在无法与作者取得联系的前提下，本网站保证转载后不作为任何商业用途，如作者对此有异议，可以通知本网站将其删除，但本网站不为此承担责任。 \n
+3．您理解并同意，无法分辨投稿是否是您本人，如因有人恶意冒充您向本网站投稿，并被本网站接受录入非其所有的作品，本网站可以受理并尽快处理您为此提出的投诉，本公司和本网站不对此承担任何责任。 \n
+4．您理解并同意，本网站同大多数互联网网站一样，受包括但不限于用户原因、网络服务质量、社会环境等因素的差异影响，可能受到各种安全问题的侵扰，如他人利用您的资料，造成现实生活中的骚扰；用户访问的其他网站中含木马或病毒，威胁到您的计算机信息和数据的安全，继而影响本网站的正常使用等。您应加强信息安全及使用者资料的保护意识，要注意加强密码保护，以免遭致损失和骚扰。 \n
+5.您理解并同意，本公司或本网站有权在服务中或经过服务投放各种广告和宣传信息，该广告可能以系统消息或弹出窗口等形式出现。 \n
+6.您理解并同意本网站不保证收录作品稿件的安全性，请注册作者自行留存原稿。\n
+六、特别说明\n
+\n
+1.本网站仅为用户提供本人原创作品的上传空间服务，请您务必上传自己的原创作品，请勿侵犯他人的知识产权及相关权利。如果广大网友发现用户上传的某部作品有侵犯他人权利的情形，欢迎来函告知。 \n
+2.本网站一贯高度重视知识产权保护并遵守中华人民共和国各项知识产权法律、法规和具有约束力的规范性文件，坚信著作权拥有者的合法权益应该得到尊重和依法保护。本网站坚决反对任何违反中华人民共和国有关著作权的法律法规的行为。由于我们无法对用户上传到本网站的所有作品内容进行充分的监测，我们制定了旨在保护知识产权权利人合法权益的措施和步骤，当著作权人和/或依法可以行使信息网络传播权的权利人（以下简称“权利人”）发现本网站上用户上传内容侵犯其著作权（包括信息网络传播权）时，权利人应事先向本网站发出权利通知，本网站将根据相关法律规定采取措施删除相关内容。 \n
+具体措施和步骤如下： \n
+\n
+如果您是某一作品的著作权人和/或依法可以行使信息网络传播权的权利人，且您认为本网站上用户上传内容侵犯了您对该等作品的信息网络传播权，请您务必书面通知本公司，您应对书面通知陈述之真实性负责。为方便本公司及时处理您的意见，您的通知书中应至少包含以下内容： \n
+（1）您的名称（姓名）及身份证明（包括身份证、法人执照、营业执照等有效身份证件）、联系方式（含Email地址）及地址； \n
+（2）要求删除的作品的名称和在本网站的地址； \n
+（3）构成侵权地初步证明材料，谨此提示以下材料可能构成初步证明：对于涉嫌侵权作品阁下拥有著作权或依法可以行使信息网络传播权的权属证明；对涉嫌侵权作品侵权事实的举证证明。（如您所拥有的著作权权属证明，包括但不限于有关的著作权登记证书或创作原手稿等）； \n
+（4）如您系自然人，请提供您的签名；如您系法人或其他组织，请提供公司法定代表人签名及盖章。任何通知及材料请投寄至以下地址，并在材料上标明【著作权投诉】字样：公司名称:【广州萌萌达网络科技有限公司】地址：【广州市越秀区先烈中路102号华盛大厦北塔28楼】邮编：【518000】 \n
+（5）本公司收到符合上述要求之通知，将在初步核实后采取包括删除等相应措施。如不符合上述条件，我们会请您补充提供相应信息，在此之前，您同意并理解我们将暂不采取包括删除等相应措施。 \n
+3.在本网站上传作品的用户视为同意本网站上述及已采用的相应措施。本公司和本网站不因此而承担任何违约责任或其他任何法律责任，包括不承担因侵权指控不成立而给原上传用户带来损害的赔偿责任。本网站在收到上述通知后会发送电子邮件通知上载该等作品的用户。对于多次上载涉嫌侵权作品的用户，我们将收回其帐号资格。 \n
+4.本协议系用户注册协议的补充协议，您的行为除应遵守本协议的约定外，还应遵守用户注册协议内容；本协议的内容如与用户注册协议发生冲突的，应以本协议为准。
+	</string>
+    <string name="write_AuthorNameLabel">笔名</string>
+    <string name="write_AuthorNameHint">2&#8211;8位，可使用中英文，注册后无法修改</string>
+    <string name="write_AuthorPhoneLabel">手机号</string>
+    <string name="write_AuthorPhoneHint">请输入13位手机号码</string>
+    <string name="write_AuthorQQLabel">QQ号</string>
+    <string name="write_AuthorQQHint">请输入QQ号</string>
+    <string name="write_AuthorRealNameLabel">真实姓名</string>
+    <string name="write_AuthorRealNameHint">因实名制要求，请输入真实姓名</string>
+    <string name="write_AuthorIdCardLabel">身份证号</string>
+    <string name="write_AuthorIdCardHint">因实名制要求，请输入身份证号</string>
+    <string name="write_AuthorAddressLabel">联系地址</string>
+    <string name="write_AuthorAddressHint">请输入联系地址</string>
+    <string name="write_EmptyAuthorFieldToast">有字段未填写，请填写空白字段</string>
+    <string name="write_AuthorNameLengthToast">笔名长度最少为2位</string>
+    <string name="write_AuthorRegisterSuccessToast">欢迎您成为九库作者</string>
+    <string name="write_Start">开始创作</string>
+    <string name="write_MenuCountFormat">章节数：%1$s</string>
+    <string name="write_WordCountFormat">总字数：%1$s</string>
+    <string name="write_StatusUnchecked">未审</string>
+    <string name="write_StatusChecked">已审</string>
+    <string name="write_StatusNoPass">未通过</string>
+    <string name="write_StatusRepeatCheck">复审</string>
+    <string name="write_StatusBlock">屏蔽</string>
+    <string name="write_CreateWorks">创建作品</string>
+    <string name="write_Next">下一步</string>
+    <string name="write_WorksName">作品名</string>
+    <string name="write_WorksNameHint">请输入作品名，不超过12个汉字</string>
+    <string name="write_WorksNameEmptyToast">请输入作品名</string>
+    <string name="write_WorksType">作品类型</string>
+    <string name="write_Boy">男性向</string>
+    <string name="write_Girl">女性向</string>
+    <string name="write_Normal">传统文学</string>
+    <string name="write_BoyDetail">以男性视角为主体创作的小说</string>
+    <string name="write_GirlDetail">以女性视角为主体创作的小说</string>
+    <string name="write_NormalDetail">诗歌、散文或者纪实文学等传统作品</string>
+    <string name="write_Copyright">版权性质</string>
+    <string name="write_Original">原创首发</string>
+    <string name="write_NotOriginal">原创驻站</string>
+    <string name="write_OriginalDetail">原创作品、并在九库文学首发</string>
+    <string name="write_NotOriginalDetail">原创作品、非九库文学首发</string>
+    <string name="write_WorksCategory">选择类别</string>
+    <string name="write_WorksCategoryDetail">单选</string>
+    <string name="write_WorksTag">添加标签</string>
+    <string name="write_WorksTagDetail">添加标签有助于作品被人发现</string>
+    <string name="write_WorksTagDialogTitle">选择要添加的标签</string>
+    <string name="write_WorksTagDialogTip">最多选择6个标签</string>
+    <string name="write_WorksTagError">标签未成功加载，请退出页面重试</string>
+    <string name="write_WorksTagEmpty">至少选择一个标签</string>
+    <string name="write_WorksDetail">作品简介</string>
+    <string name="write_WorksDetail2">作品简介大纲</string>
+    <string name="write_WorksDetailEmptyToast">请填写作品简介</string>
+    <string name="write_WorksDeputyDetail">一句话推荐</string>
+    <string name="write_WorksDeputyDetailHint">用一句话介绍您的作品，10&#8211;20字</string>
+    <string name="write_WorksDeputyDetailEmptyToast">请填写一句话推荐</string>
+    <string name="write_WorksDetailDialogText">离开此页面不会保存您编辑的简介信息，是否离开？</string>
+    <string name="write_SubmitWorks">提交审核</string>
+    <string name="write_WorksManager">管理作品</string>
+    <string name="write_CollectCountFormat">收藏：%1$s</string>
+    <string name="write_PageViewCountFormat">点击：%1$s</string>
+    <string name="write_CommentCountFormat">评论：%1$s</string>
+    <string name="write_DetailEdit">信息修改</string>
+    <string name="write_DetailEditRight">修改封面简介</string>
+    <string name="write_MenuManager">章节管理</string>
+    <string name="write_MenuManagerRight">已发布%1$s章</string>
+    <string name="write_DraftMenu">草稿箱</string>
+    <string name="write_DraftMenuRight">%1$s章未发布章节</string>
+    <string name="write_Publish">申请签约</string>
+    <string name="write_PublishRight">作品满3万字后可以申请</string>
+    <string name="write_Money">查看稿费</string>
+    <string name="write_WordCountErrorToast">错误总字数：%1$s</string>
+    <string name="write_AuthorWorksEmptyToast">作品信息未完全加载，请退出重试</string>
+    <string name="write_SaveDraftMenu">正在保存数据到草稿箱</string>
+    <string name="write_SaveDraftMenuError">数据已保存到本地</string>
+    <string name="write_PublishMenu">正在发布章节</string>
+    <string name="write_EditMenuContentText">修改内容未保存，是否提交修改内容？</string>
+    <string name="write_MenuTitle">章节管理</string>
+    <string name="write_MenuLocked">章节已锁定</string>
+    <string name="write_DraftMenuTitle">草稿箱</string>
+    <string name="write_DraftMenuNotPublishTime">未设置发布时间</string>
+    <string name="write_DraftMenuDelete">确认删除选择的章节？</string>
+    <string name="write_DraftMenuPublishDialogText">章节发布后不可撤销删除，确认发布吗？</string>
+    <string name="write_DefaultMenuName">无章节名</string>
+    <string name="write_DefaultMenuContent">默认内容</string>
+    <string name="write_MenuNameHint">请输入章节名，不超过20个汉字</string>
+    <string name="write_VipWordCountCheck">付费章修改后字数不能低于原字数</string>
+    <string name="write_ApplySign">申请签约</string>
+    <string name="write_ContentCountFormat">%1$s字</string>
+    <string name="write_ApplySignHint">点击此处填写</string>
+    <string name="write_PlanWordCount">计划创作字数</string>
+    <string name="write_ApplySignContact">联系方式（QQ号或手机号）</string>
+
+    <!--消息中心-->
+    <string name="message_reply">回复</string>
+    <string name="message_notice">通知</string>
+    <string name="message_system">系统消息</string>
+    <string name="message_manager">消息中心</string>
+    <string name="empty_system_message">还没收到系统消息</string>
+    <string name="message_title">%1$s回复了你的主题%2$s</string>
+    <string name="select_topic">请选择话题</string>
+    <string name="topic_title_hint">标题（选填）</string>
+    <string name="topic_content_face_hint">内容不可以发表纯表情哦</string>
+    <string name="topic_title_face_hint">标题不可以包含表情</string>
+    <string name="no_topic_hint">没有可选择的话题</string>
+
+    <!--发现页面-->
+    <string name="search_all">查看全部</string>
+    <string name="no_content_tip">暂无内容，请稍后重试</string>
+    <!--热门榜单-->
+    <string name="hot_rank">热门榜单</string>
+    <string name="boy_best_seller">男生畅销榜</string>
+    <string name="girl_best_seller">女生畅销榜</string>
+    <string name="boy_pv">男生人气榜</string>
+    <string name="girl_pv">女生人气榜</string>
+    <string name="boy_collection">男生收藏榜</string>
+    <string name="girl_collection">女生收藏榜</string>
+    <string name="boy_update">男生更新榜</string>
+    <string name="girl_update">女生更新榜</string>
+    <string name="boy_end_pv">完结人气榜</string>
+    <string name="girl_end_pv">免费人气榜</string>
+    <string name="item_click">点击</string>
+    <string name="item_num">字数</string>
+    <string name="item_latest">最新</string>
+    <string name="item_select">筛选</string>
+    <string name="item_select_state">状态</string>
+    <string name="item_select_category">价格</string>
+    <string name="label_all">全部</string>
+    <string name="label_limited">不限</string>
+    <string name="label_continue">连载</string>
+    <string name="label_end">完结</string>
+    <string name="label_30">30万以下</string>
+    <string name="label_30_100">30-100万</string>
+    <string name="label_100_200">100-200万</string>
+    <string name="label_200">200万以上</string>
+    <string name="label_free">免费</string>
+    <!--精选页面-->
+    <string name="book_tags">标签</string>
+    <string name="book_search_hint">找不到书？来这里搜搜看吧</string>
+    <!--书单页面-->
+    <string name="book_list">书单</string>
+    <string name="attention_level">关注程度：</string>
+
+    <string name="label_search">试一下标签找书吧！</string>
+    <!--许愿树页面-->
+    <string name="washing_tree">许愿</string>
+    <string name="washing_book_hint">请输入您许愿的作品</string>
+    <string name="washing_tip">许愿功能说明:\n1、累计签到每满15天，将获得一次许愿的机会。\n2、许愿的作品仅限本站作品。\n3、许愿后有机率免费阅读该作品，还有机率获得藏宝箱、积分、洛阳铲等道具。</string>
+    <string name="start_wishing">正在许愿中...</string>
+    <string name="success_tip">恭喜您!!</string>
+    <string name="sure_tip">请确认您想许愿的作品</string>
+    <string name="fail_tip">很遗憾!!</string>
+    <string name="gain_gift">领取奖励</string>
+    <string name="washing_again">消耗100金币再来一次？</string>
+    <string name="gain_success">领取成功</string>
+    <string name="loss_money">扣取100金币</string>
+    <string name="not_along">没有该书籍</string>
+    <string name="wish_fail">许愿失败,稍后重试</string>
+    <string name="already_gain">已经许过愿了</string>
+    <string name="no_enough">金币不足</string>
+    <!--推送标签-->
+    <string name="tag_select_boy">男</string>
+    <string name="tag_select_girl">女</string>
+    <!--书籍简介-->
+    <string name="no_comment_tip">评论区暂无评论</string>
+    <string name="all_comment_num">查看全部%1$s条评论</string>
+    <string name="all_author_book">其他作品</string>authorWordCount
+    <string name="author_all_book">%1$s本作品</string>
+    <string name="author_all_book_word_num">创作%1$s万字</string>
+    <string name="the_same_series">同系列推荐</string>
+    <string name="user_love">根据您的喜好，我们为你推荐</string>
+    <string name="book_tip">本书由九库阅读进行电子书制作与发行</string>
+    <string name="bookWordNum">%1$s万字</string>
+    <string name="fans_count">获得%1$s个赞</string>
+    <string name="fans_block">粉丝榜</string>
+    <string name="fans_no_count">暂无粉丝，快来抢头筹！</string>
+    <string name="write_long_comment">写长评</string>
+    <string name="book_comment_detail">书评</string>
+    <string name="book_author_info">获取作者信息失败</string>
+    <string name="book_long_comment_null">还没有人做出精彩点评，做第一个吃螃蟹的人吧！</string>
+    <string name="book_short_comment_null">求打赏求推荐!</string>
+    <string name="book_read_history_detail">第%1$s章</string>
+    <string name="limited_time_free">限时免费阅读</string>
+    <string name="limited_time_subscription">限时折扣订阅</string>
+    <string name="activity_over">活动已结束</string>
+    <string name="long_comment_select">精彩长评</string>
+
+    <string name="reward_show">对作品进行打赏、订阅以及使用道具都会产生粉丝值。粉丝值可以获得特定的粉丝称谓，支持您喜欢的作品，就成为Ta的粉丝吧！</string>
+
+
+</resources>
