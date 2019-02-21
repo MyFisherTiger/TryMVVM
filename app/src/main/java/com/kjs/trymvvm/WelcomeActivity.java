@@ -55,9 +55,10 @@ public class WelcomeActivity extends BaseActivity {
                 Intent mainIntent = new Intent(WelcomeActivity.this, clazz);
                 WelcomeActivity.this.startActivity(mainIntent);
                 WelcomeActivity.this.finish();
-                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                 break;
         }
+        //接收完要及时移除
+        mUiHandler.removeMessages(msg.what);
     }
 
     @Override

@@ -2,6 +2,7 @@ package com.kjs.test.coffeelibrary.base;
 
 import android.arch.lifecycle.ViewModel;
 import android.arch.lifecycle.ViewModelProviders;
+import android.content.Context;
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.databinding.ViewDataBinding;
@@ -24,6 +25,8 @@ import java.lang.ref.WeakReference;
  * 说明：基类
  **/
 public abstract class ABaseActivity extends AppCompatActivity {
+
+    protected Context mContext=this;
 
     protected Handler mUiHandler = new UiHandler(this);
 
@@ -109,6 +112,7 @@ public abstract class ABaseActivity extends AppCompatActivity {
         super.onDestroy();
         LogUtil.info(ClazzName + ":onDestroy");
         doDestroy();
+        mContext=null;
         AppManager.getAppManager().removeActivity(this);
     }
 
@@ -175,7 +179,7 @@ public abstract class ABaseActivity extends AppCompatActivity {
 
     /**
      * 设置是否每次调用onResume方法时，都尽量懒加载数据
-     * @param onResumeLoad
+     * @param //onResumeLoad
      */
     /*protected void setOnResumeLoad(boolean onResumeLoad) {
         isOnResumeLoad = onResumeLoad;
