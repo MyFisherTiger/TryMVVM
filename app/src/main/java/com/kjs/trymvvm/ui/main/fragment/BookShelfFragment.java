@@ -6,8 +6,10 @@ import com.kjs.trymvvm.R;
 import com.kjs.trymvvm.base.BaseFragment;
 
 /**
- * A simple {@link Fragment} subclass.
- */
+ * 作者：柯嘉少 on 2018/9/28 17:29
+ * 邮箱：2449926649@qq.com
+ * 说明：书架页面
+ **/
 public class BookShelfFragment extends BaseFragment {
 
 

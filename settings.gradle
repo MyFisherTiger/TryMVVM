@@ -1,1 +1,1 @@
-include ':app', ':coffeelibrary', ':sugarlibrary'//, ':readpagerlibrary'
+include ':app', ':coffeelibrary', ':sugarlibrary', ':UmengSocialSDK'//, ':readpagerlibrary'

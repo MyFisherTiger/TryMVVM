@@ -26,9 +26,10 @@ import com.kjs.trymvvm.util.DeviceUtil;
 import com.kjs.trymvvm.vm.VisitorLoginModel;
 
 /**
- * Created by Administrator on 2019/1/30.
- */
-
+ * 作者：柯嘉少 on 2018/9/28 17:29
+ * 邮箱：2449926649@qq.com
+ * 说明：欢迎页面
+ **/
 public class WelcomeActivity extends BaseActivity {
     private ActivityWelcomeBinding binding;
     private VisitorLoginModel visitorLoginModel;
@@ -47,6 +48,8 @@ public class WelcomeActivity extends BaseActivity {
     public void handleUiMessage(Message msg) {
         switch (msg.what) {
             case AppConfig.MSG_START_INDEX:
+                //接收完要及时移除
+                mUiHandler.removeMessages(msg.what);
                 int bookCollectSex = SPManager.getInstance().queryByFileNameAndKeyWithSP(SPManager.defaultFileName,AppConfig.BOOK_COLLECT_SEX_INT,Integer.class,0);// (WelcomeActivity.this, AppConfig.BOOK_COLLECT_SEX_INT, 0);
                 Class clazz = IndexActivity.class;
                 if (bookCollectSex == 0) {
@@ -57,8 +60,7 @@ public class WelcomeActivity extends BaseActivity {
                 WelcomeActivity.this.finish();
                 break;
         }
-        //接收完要及时移除
-        mUiHandler.removeMessages(msg.what);
+
     }
 
     @Override

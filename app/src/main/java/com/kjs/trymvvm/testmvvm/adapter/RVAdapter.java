@@ -1,4 +1,4 @@
-package com.kjs.trymvvm.adapter;
+package com.kjs.trymvvm.testmvvm.adapter;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;

@@ -16,7 +16,29 @@
         <item name="android:backgroundDimEnabled">true</item>-->
     </style>
 
+    <!--登录页面样式 start-->
+    <style name="tvStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/title_tip_bg</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginLeft">@dimen/dp_5</item>
+        <item name="android:layout_marginBottom">@dimen/dp_10</item>
+    </style>
 
+    <style name="edStyle">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:drawablePadding">@dimen/dp_10</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingRight">@dimen/dp_10</item>
+        <item name="android:paddingLeft">@dimen/dp_10</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/_242424</item>
+        <item name="android:textColorHint">@color/_b5b5b5</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <!--登录页面样式 end-->
 
 
 </resources>

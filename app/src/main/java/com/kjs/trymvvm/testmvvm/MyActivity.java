@@ -1,4 +1,4 @@
-package com.kjs.trymvvm.ui.testmvvm;
+package com.kjs.trymvvm.testmvvm;
 
 import android.os.Message;
 import android.support.v4.app.Fragment;
@@ -6,7 +6,7 @@ import android.support.v4.app.Fragment;
 
 import com.kjs.trymvvm.R;
 
-import com.kjs.trymvvm.adapter.VPFragmentAdapter;
+import com.kjs.trymvvm.testmvvm.adapter.VPFragmentAdapter;
 import com.kjs.trymvvm.base.BaseActivity;
 import com.kjs.trymvvm.databinding.ActivityMyBinding;
 

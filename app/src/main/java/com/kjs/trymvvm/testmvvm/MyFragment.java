@@ -1,26 +1,19 @@
-package com.kjs.trymvvm.ui.testmvvm;
+package com.kjs.trymvvm.testmvvm;
 
 
-import android.databinding.DataBindingUtil;
-import android.os.Bundle;
 import android.app.Fragment;
-import android.os.Message;
 import android.support.v7.widget.LinearLayoutManager;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 
 import com.kjs.trymvvm.R;
-import com.kjs.trymvvm.adapter.RVAdapter;
+import com.kjs.trymvvm.testmvvm.adapter.RVAdapter;
 import com.kjs.trymvvm.base.BaseFragment;
 import com.kjs.trymvvm.bean.ItemBean;
 import com.kjs.trymvvm.databinding.FragmentMyBinding;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Timer;
-import java.util.TimerTask;
 
 /**
  * A simple {@link Fragment} subclass.

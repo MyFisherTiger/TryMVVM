@@ -1,4 +1,4 @@
-package com.kjs.trymvvm.ui.testmvvm;
+package com.kjs.trymvvm.testmvvm;
 
 import android.arch.lifecycle.Observer;
 import android.content.Intent;

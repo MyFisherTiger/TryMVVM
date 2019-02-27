@@ -25,12 +25,11 @@ public class AppConfig {
     public static final String First_START = "imeiTime";
 
 
-    //msg
-    public static final int MSG_START_INDEX = 0x30;//跳转到Index页面
-
-
     //sharePreference键
     public static final String BOOK_COLLECT_SEX_INT="BOOK_COLLECT_SEX_INT";//我的书架默认推荐图书 1:男生 2：女生
+
+    //msg
+    public static final int MSG_START_INDEX = 0x30;//跳转到Index页面
 
 
 

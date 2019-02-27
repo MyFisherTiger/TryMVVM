@@ -1,7 +1,4 @@
-package com.kjs.trymvvm.repository;
-
-import android.arch.lifecycle.LiveData;
-import android.arch.lifecycle.MutableLiveData;
+package com.kjs.trymvvm.testmvvm.repository;
 
 import com.kjs.trymvvm.bean.MainDataBean;
 

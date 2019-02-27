@@ -1,4 +1,4 @@
-package com.kjs.trymvvm.adapter;
+package com.kjs.trymvvm.testmvvm.adapter;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;

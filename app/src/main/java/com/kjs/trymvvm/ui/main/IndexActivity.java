@@ -1,12 +1,8 @@
 package com.kjs.trymvvm.ui.main;
 
-import android.app.Activity;
-import android.content.Intent;
-import android.os.Bundle;
 import android.os.Message;
 
 import com.kjs.trymvvm.R;
-import com.kjs.trymvvm.WelcomeActivity;
 import com.kjs.trymvvm.base.BaseActivity;
 
 public class IndexActivity extends BaseActivity {

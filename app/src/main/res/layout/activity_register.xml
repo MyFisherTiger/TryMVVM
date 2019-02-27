@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        tools:context="com.kjs.trymvvm.ui.login.RegisterActivity">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="23dp"
+            android:layout_marginTop="@dimen/dp_20"
+            android:paddingBottom="@dimen/dp_10"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvAccount"
+                style="@style/tvStyle"
+                android:text="账号"/>
+
+            <!-- 账号只支持数字，英文，下划线。 -->
+            <EditText
+                android:id="@+id/ed_username"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:digits="qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890_"
+                android:hint="@string/login_user_hint"
+                android:imeOptions="actionNext"
+                style="@style/edStyle"/>
+
+
+            <TextView
+                android:id="@+id/tvPwd"
+                style="@style/tvStyle"
+                android:text="@string/user_Pwd"
+                android:layout_marginTop="20dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_40" />
+
+           <!-- <com.mengmengda.reader.widget.ShowHidePasswordEditText
+                android:id="@+id/ed_password"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="@string/login_password_hint"
+                app:drawable_hide="@drawable/look_on"
+                app:drawable_show="@drawable/look_off"
+                style="@style/edStyle"/>-->
+
+            <Button
+                android:id="@+id/bt_usr_login"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/selector_btn_login"
+                android:gravity="center"
+                android:text="@string/cout_login"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginLeft="@dimen/dp_5"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_20"
+                android:layout_marginLeft="@dimen/dp_5">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true">
+                    <TextView
+                        android:id="@+id/btn_RegisterAccount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/user_RegisterAccount"
+                        android:textColor="@color/_b5b5b5"
+                        android:textSize="14sp"/>
+                    <View
+                        android:layout_width="@dimen/dp_1"
+                        android:layout_height="match_parent"
+                        android:background="@color/_cccccc"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="@dimen/dp_15"
+                        android:layout_marginRight="@dimen/dp_15"/>
+                    <TextView
+                        android:id="@+id/tv_FindPwd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/user_FindPwd"
+                        android:textColor="@color/_b5b5b5"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>
