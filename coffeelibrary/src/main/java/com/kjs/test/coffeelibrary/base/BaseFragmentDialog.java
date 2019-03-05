@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -19,6 +20,8 @@ import android.view.WindowManager;
 import com.kjs.test.coffeelibrary.R;
 import com.kjs.test.coffeelibrary.util.NotQuickerClickListener;
 
+import java.lang.reflect.Field;
+
 /**
  * 作者：柯嘉少 on 2018/12/19 15:45
  * 邮箱：2449926649@qq.com
@@ -28,6 +31,7 @@ public abstract class BaseFragmentDialog extends DialogFragment {
     protected Context mContext;
     protected View mView;
     protected OnViewClickListener listener;
+    protected boolean isShow=false;//dialog是否是show的状态
 
     private boolean isFullScreen = true;
     private int mTheme = R.style.fragment_dialog_default_screen;//使用自定义的默认主题
@@ -91,20 +95,79 @@ public abstract class BaseFragmentDialog extends DialogFragment {
 
     /**
      * 显示dialog
-     * <p>
-     * add的时候是不显示的
+     * 不允许改变onSaveInstanceState保存的该弹窗状态为开启状态
      *
      * @param manager
      */
     public void show(FragmentManager manager) {
         if (!isAdded()&&getActivity()!=null&&!getActivity().isFinishing()) {
             super.show(manager, this.getClass().getSimpleName());
+            isShow=true;
         }
     }
 
-    public void dismiss(){
-        if (getActivity()!=null&&!getActivity().isFinishing()&&getDialog().isShowing()) {
+    /**
+     * 显示弹窗
+     *
+     * 允许改变onSaveInstanceState保存的该弹窗状态为开启状态
+     * @param manager
+     */
+    public void showAllowingStateLoss(FragmentManager manager){
+        if (!isShow) {
+            newShow(manager);
+            isShow=true;
+        }
+
+    }
+
+    /**
+     * 当异步线程或者定时任务显示fragmentDialog时，跳转到其他activity，系统可能会回收activity的一些变量，调用onSaveInstanceState保存数据（包括弹窗的状态），是不允许改变保存的数据
+     * 但fragmentDialog的show方法里调用了commit()方法，会改变状态，这时候就会报错
+     * 因此需要使用反射的技术，来修改父类的私有变量,重写父类的show方法呢 使用commitAllowingStateLoss() 来替换commit()方法
+     *
+     * @param manager
+     */
+    private void newShow(FragmentManager manager){
+        try {
+            Field mDismissed = this.getClass().getSuperclass().getDeclaredField("mDismissed");
+            Field mShownByMe = this.getClass().getSuperclass().getDeclaredField("mShownByMe");
+            mDismissed.setAccessible(true);
+            mShownByMe.setAccessible(true);
+            mDismissed.setBoolean(this, false);
+            mShownByMe.setBoolean(this, true);
+        } catch (NoSuchFieldException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
+        FragmentTransaction ft = manager.beginTransaction();
+        ft.add(this, this.getClass().getSimpleName());
+        ft.commitAllowingStateLoss();
+    }
+
+    /**
+     * 关闭弹窗
+     *
+     * 不允许允许改变onSaveInstanceState保存的该弹窗状态为关闭状态
+     */
+    @Override
+    public void dismiss() {
+        if(isShow){
+            super.dismiss();
+            isShow=false;
+        }
+    }
+
+    /**
+     * 关闭弹窗
+     *
+     * 允许改变onSaveInstanceState保存的该弹窗状态为关闭状态
+     */
+    @Override
+    public void dismissAllowingStateLoss() {
+        if(isShow){
             super.dismissAllowingStateLoss();
+            isShow=false;
         }
     }
 
