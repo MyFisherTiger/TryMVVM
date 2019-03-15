@@ -100,7 +100,7 @@ public abstract class BaseFragmentDialog extends DialogFragment {
      * @param manager
      */
     public void show(FragmentManager manager) {
-        if (!isAdded()&&getActivity()!=null&&!getActivity().isFinishing()) {
+        if (!isShow) {
             super.show(manager, this.getClass().getSimpleName());
             isShow=true;
         }
