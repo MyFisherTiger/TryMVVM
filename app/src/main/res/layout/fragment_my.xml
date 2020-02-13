@@ -21,7 +21,7 @@
                 android:id="@+id/tv1"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                android:text="@string/hello_blank_fragment" />
+                android:text="点击我" />
 
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/rv_list"
